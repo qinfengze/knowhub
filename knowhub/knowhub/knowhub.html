@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知识库</title>
+    <link rel="stylesheet" href="knowhub.css">
+</head>
+
+<body>
+    <header>
+        <h1>知识库</h1>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <h2>上传知识包</h2>
+            <form id="upload-form">
+                <input type="file" id="file-input">
+                <button type="submit">上传</button>
+            </form>
+        </section>
+
+        <section id="download-section">
+            <h2>下载知识包</h2>
+            <div id="knowledge-list">
+                <!-- 知识包列表，动态生成 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>版权所有 © 2024 知识库</p>
+    </footer>
+
+    <script src="knowhub.js"></script>
+</body>
+
+</html>
